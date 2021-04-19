@@ -1,8 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <hello-world></hello-world>
-    <BookList />
+    <book-list />
   </div>
 </template>
 
@@ -12,7 +11,7 @@ import BookList from './components/BookList';
 export default {
   name: 'app',
   components: {
-    BookList,
+    BookList
   },
 };
 </script>
